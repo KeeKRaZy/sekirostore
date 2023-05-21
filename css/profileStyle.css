@@ -1,0 +1,228 @@
+#profileLogo{
+    font-size: 140px;
+    margin-right: 80px;
+    margin-left: 50px;
+}
+.usersProfile{
+    display: flex;
+    font-size: 27px;
+    background-color: rgb(37, 37, 37);
+    width: 850px;
+    height: 230px;
+    margin: auto;
+    align-items: center;
+    border-radius: 7px;
+    line-height: 50px;
+}
+#logOutButton{
+    background-color: rgb(20, 20, 20);
+    padding: 0px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 660px;
+    position: absolute;
+}
+#logOutButton:hover{
+	border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+	color: rgb(176, 255, 255);
+}
+#usersData p{
+    margin-right: 20px;
+}
+
+.changeYourData{
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    width: 850px;
+    height: 400px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+
+.changeYourData p{
+    position: absolute;
+    font-size: 44px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.changeYourData form{
+    margin-top: 80px;
+    margin-left: 190px;
+}
+
+.changeYourData form input{
+    border-color: white;
+    border-radius: 3px;
+	font-size: 21px;
+    padding: 10px 20px;
+	width: 190px;
+	color: black;
+	margin-top: 20px;
+    height: 22px;
+}
+
+#secondShortInput{
+    margin-left: 15px;
+}
+
+.changeYourData .longInput{
+    width: 445px;
+}
+
+#passwordForDataChange{
+    margin-top: 5px;
+}
+
+.changeYourData form li{
+    margin-top: 8px;
+}
+
+#updateButton{
+    background-color: rgb(20, 20, 20);
+    padding: 0px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    margin-top: 240px;
+    margin-left: 460px;
+    position: absolute;
+    color: white;
+    border: 0px solid;
+    height: 50px;
+    width: 150px;
+}
+#updateButton:hover{
+	border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+	color: rgb(176, 255, 255);
+}
+
+.changePassword{
+    height: 260px;
+}
+
+.changePassword p{
+    margin-left: 240px;
+}
+
+.changePassword form input{
+    width: 220px;
+}
+
+.changePassword form div{
+    margin-left: -30px;
+}
+
+.changePassword #updateButton{
+    margin-top: 100px;
+}
+
+.ordersHistory{
+    background-color: rgb(37, 37, 37);
+    width: 850px;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+
+.ordersHistory p{
+    font-size: 44px;
+    text-align:center;
+}
+
+#historyMoreButton{
+    background-color: rgb(20, 20, 20);
+    padding: 4px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    margin-left: 655px;
+    margin-bottom: 40px;
+}
+
+#historyMoreButton:hover{
+    border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+	color: rgb(176, 255, 255);
+}
+
+.ordersHistoryHeader{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.ordersHistoryMain{
+    position: relative;
+	display: flex;
+	flex-direction: row;
+	font-size: 28px;
+	padding: 10px 0px;
+	border-top: 2px solid #e6e6e6;
+    width: 62%;
+    margin: auto;
+}
+
+.ordersHistory div:last-of-type{
+	border-bottom: 2px solid #e6e6e6;
+    margin-bottom: 40px;
+}
+
+#historyFooter{
+    height: 4px;
+    margin-top: 30px;
+}
+
+.historyNr{
+    width: 20px;
+    text-align: center;
+    margin-left: 20px;
+    color: #e6e6e6;
+}
+
+.historyDate{
+    width: 370px;
+    text-align: center;
+    color: #e6e6e6;
+}
+.historyStatus{
+    width: 100px;
+    text-align: center;
+    color: #e6e6e6;
+}
+
+#adminPanelButton{
+    margin-top: 25px;
+    border-radius: 7px;
+    display: flex;
+    font-size: 44px;
+    padding: 5px 295px 5px 295px;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    align-items: center;
+    margin-left: 185px;
+    border: 1px solid rgb(85, 85, 85);
+    transition: .2s;
+    cursor: pointer;
+}
+
+#adminPanelButton:hover{
+    border-color: white;
+}

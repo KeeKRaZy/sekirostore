@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+.changeYourData{
+    background-color: rgb(37, 37, 37);
+    width: 850px;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+
+
+.changeYourData form{
+    margin-top: 40px;
+    margin-left: 190px;
+}
+
+.changeYourData form input{
+    border-color: white;
+    border-radius: 3px;
+	font-size: 21px;
+    padding: 10px 20px;
+	width: 190px;
+	color: black;
+	margin-top:10px;
+    height: 22px;
+}
+
+#secondShortInput{
+    margin-left: 15px;
+}
+
+.changeYourData .longInput{
+    width: 445px;
+}
+
+#passwordForDataChange{
+    margin-top: 5px;
+}
+.changeYourData .doubleLi{
+    white-space: nowrap;
+}
+.changeYourData li{
+    display:inline; 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.changeYourData li + li{
+    margin-left: 210px;
+}
+
+#payFooter{
+    height: 4px;
+    margin-top: 40px;
+}
+
+.paymentMethod{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.paymentMethod label{
+    display: list-item;
+    list-style-type: none;
+    margin-left: 100px;
+}
+.paymentMethod label input{
+    width: 40px;
+    margin-top:0px;
+    height: 14px;
+}
+
+#updateButton{
+    background-color: rgb(20, 20, 20);
+    padding: 0px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    margin-left: 460px;
+    color: white;
+    border: 0px solid;
+    height: 50px;
+    width: 150px;
+}
+#updateButton:hover{
+	border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+	color: rgb(176, 255, 255);
+}
+
+.cardPay{
+    margin-top: 30px;
+    white-space:normal;
+}
+
+.cardPay li{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cardPay label{
+    display: inline;
+}
+.cardPay label input{
+    width: 40px;
+    margin-top: 20px;
+    height: 14px;
+}
+
+.cardPay .cardDetails input{
+    width: 50px;
+    font-size: 18px;
+    height: 10px;
+    width: 30px;
+}
+
+#secondShort{
+    margin-left: 10px;
+    width: 40px;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+#firstShortInput{
+    margin-right: 7px;
+    width: 40px;
+    padding-left: 5px;
+    padding-right: 8px;
+}
+
+#thirdShortInput{
+    margin-left: 80px;
+}
+
+#doubleLi li{
+    display: inline; 
+    margin-left: 10px;
+}
+
+#doubleLi li+ li{
+    margin-left: 135px;
+}
+
+#cardType{
+    margin-bottom: 20px;
+}
+
+#footer #dividingLine{
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+input:invalid {
+	border-color: red;
+}
+
+.swal-text{
+    text-align: center !important;
+    font-size: 20px !important;
+    margin-top: 15px;
+}

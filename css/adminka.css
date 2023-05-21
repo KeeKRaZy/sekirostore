@@ -1,0 +1,516 @@
+main h1{
+    font-size: 40px;
+    margin-left: 350px;
+    cursor:default;
+}
+
+main h1:hover{
+    color: white;
+}
+
+main form{
+    margin-top: 30px;
+}
+
+main form input:hover{
+    background-color: rgb(196, 196, 196);
+}
+
+main form input{
+    cursor: pointer;
+}
+
+.ordersHistory{
+    background-color: rgb(37, 37, 37);
+    width: 1000px;
+    height: auto;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+
+.ordersHistory p{
+    font-size: 44px;
+    text-align:center;
+    margin-bottom: 60px;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.ordersHistoryHeader{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.ordersHistoryMain{
+    position: relative;
+	display: flex;
+	flex-direction: row;
+	font-size: 28px;
+	padding: 10px 0px;
+	border-top: 2px solid #e6e6e6;
+    width: 80%;
+    margin: auto;
+}
+
+.ordersHistory div:last-of-type{
+	border-bottom: 2px solid #e6e6e6;
+    margin-bottom: 40px;
+}
+
+#historyFooter{
+    height: 4px;
+    margin-top: 10px;
+}
+
+.historyNr{
+    width: 20px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+.historyDate{
+    width: 350px;
+    text-align: center;
+
+}
+.historyStatus{
+    width: 60px;
+    text-align: center;
+}
+
+.historyPrice{
+    width: 300px;
+    text-align: center;
+
+}
+
+.chooseOrderNone{
+    opacity: 0;
+    cursor: auto;
+}
+
+.chooseOrder{
+    transform: scale(1.4);
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.chooseOrder2{
+    transform: scale(1.4);
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#historyMoreButton{
+    background-color:rgb(29, 29, 29) ;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 6px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    margin-left: 100px;
+    color:white;
+    margin-top: 40px;
+    width: 240px;
+}
+
+#historyMoreButton2{
+    background-color:rgb(29, 29, 29) ;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 6px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    margin-left: 100px;
+    color:white;
+    margin-top: 20px;
+    width: 280px;
+}
+
+#historyMoreButton:hover{
+    border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+    border-top: 1px solid rgba(176, 255, 255, 0);
+    border-bottom: 1px solid rgba(176, 255, 255, 0);
+	color: rgb(176, 255, 255);
+    text-decoration: none;
+}
+
+#historyMoreButton2:hover{
+    border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+    border-top: 1px solid rgba(176, 255, 255, 0);
+    border-bottom: 1px solid rgba(176, 255, 255, 0);
+	color: rgb(176, 255, 255);
+    text-decoration: none;
+}
+
+#sendSearch2{
+    display: none;
+}
+.backToMain{
+    font-size: 24px;
+    color: rgb(192, 192, 192);
+    cursor: pointer;
+}
+.backToMain:nth-child(4){
+    float: right;
+}
+.backToMain .fa-arrow-left-long{
+    font-size: 20px;
+    color: rgb(192, 192, 192);
+}
+
+.backToMain .fa-arrow-right-long{
+    font-size: 20px;
+    color: rgb(192, 192, 192);
+}
+
+.backToMain:hover{
+    border-bottom: 1px solid rgb(221, 221, 221);
+    color: rgb(221, 221, 221);
+}
+
+.userID{
+    width: 20px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+.userName{
+    width: 520px;
+    text-align: center;
+
+}
+.userRole{
+    width: 60px;
+    text-align: center;
+}
+
+.userEmail{
+    width: 650px;
+    text-align: center;
+
+}
+
+.allUsersHeader{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+
+.allUsersMain{
+    position: relative;
+	display: flex;
+	flex-direction: row;
+	font-size: 28px;
+	padding: 20px 0px;
+	border-top: 2px solid #e6e6e6;
+    width: 80%;
+    margin: auto;
+}
+
+.allUsersContainer{
+    background-color: rgb(24, 24, 24);
+    border-top: 1px solid rgb(163, 163, 163);
+    border-bottom: 1px solid rgb(163, 163, 163);
+    width: 1300px;
+    height: auto;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+
+.allUsersContainer p{
+    font-size: 44px;
+    text-align:center;
+    margin-bottom: 60px;
+    margin-top: -20px;
+
+}
+
+#makeAdminButton{
+    background-color:rgb(19, 19, 19) ;
+    border: 1px solid transparent;
+    border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+    padding: 6px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    margin-left: 130px;
+    color:white;
+    margin-top: 55px;
+    width: 240px;
+}
+
+#makeAdminButton:hover{
+    border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+    border-top: 1px solid rgba(176, 255, 255, 0);
+	color: rgb(176, 255, 255);
+    text-decoration: none;
+}
+
+#deleteUserButton{
+    background-color:rgb(19, 19, 19) ;
+    border: 1px solid transparent;
+    border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+    padding: 6px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    margin-left: 570px;
+    color:white;
+    margin-top: 55px;
+    width: 240px;
+}
+
+#deleteUserButton:hover{
+    border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+    border-top: 1px solid rgba(176, 255, 255, 0);
+    border-bottom: 1px solid rgba(176, 255, 255, 0);
+	color: rgb(176, 255, 255);
+    text-decoration: none;
+}
+
+#productDiscription{
+    height: 100px;
+    border-color: white;
+    border-radius: 3px;
+	font-size: 20px;
+    padding: 10px 20px;
+	width: 400px;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#uploadImageInput{
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    width:  375px;
+    border: 1px solid rgb(138, 138, 138, 0);
+    transition: .2s;
+}
+
+#uploadImageInput:hover{
+    background-color:rgb(27, 27, 27);
+    border: 1px solid rgb(71, 71, 71);
+}
+
+#uploadProductButton{
+    background-color:rgb(19, 19, 19) ;
+    border: 1px solid transparent;
+    border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+    padding: 6px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    color:white;
+    margin-top: 25px;
+    width: 440px;
+}
+#uploadProductButton:hover{
+    border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+    border-top: 1px solid rgba(176, 255, 255, 0);
+    border-bottom: 1px solid rgba(176, 255, 255, 0);
+	color: rgb(176, 255, 255);
+    text-decoration: none;
+}
+.error{
+	color:  red;
+	font-size: 20px;
+    line-height: 5px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.success{
+	color:  green;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#h1ForNewProduct{
+    margin-left: 350px;
+}
+
+/* MANAGE PRODUCTS*/
+
+.allProductsHeader{
+    position: relative;
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+	margin-bottom: 50px;
+	font-size: 30px;
+    margin-left: -90px;
+    max-width: 1400px;
+    margin-top: 50px;
+}
+.allProductsMain{
+    position: relative;
+	display: flex;
+	flex-direction: row;
+	font-size: 25px;
+	padding: 20px 0px;
+	border-top: 2px solid white;
+    margin-left: -90px;
+    max-width: 1400px;
+}
+.allProductsMain:last-child{
+	border-bottom: 2px solid white;
+}
+
+.allProductsMain .productTitle{
+	width: 750px;
+	display: flex;
+    align-items: center;
+    font-size: 28px;
+}
+
+.allProductsHeader .productTitle{
+	width: 750px;
+	display: flex;
+    align-items: center;
+    font-size: 28px;
+}
+
+.allProductsMain .productTitle span{
+	border-bottom: 2px solid white;
+}
+
+.productId{
+	width: 140px;
+	display: flex;
+    align-items: center;
+}
+
+.allProductsMain .productType{
+	width: 250px;
+	display: flex;
+    align-items: center;
+}
+
+.allProductsMain .productPrice{
+	width: 250px;
+	display: flex;
+    align-items: center;
+}
+
+.allProductsHeader .productType{
+	width: 250px;
+	display: flex;
+    align-items: center;
+}
+
+.allProductsHeader .productPrice{
+	width: 250px;
+	display: flex;
+    align-items: center;
+}
+
+.productMaterial{
+	width: 250px;
+	display: flex;
+    align-items: center;
+}
+
+.productDiscription{
+	width: 50px;
+	display: flex;
+    align-items: center;
+}
+
+.allProductsMain .productDiscription{
+	text-decoration: underline;
+    width: 15px;
+    margin-left: 35px;
+    color: rgb(188, 255, 255);
+    cursor: pointer;
+}
+
+.allProductsMain .productTitle img{
+	width: 100px;
+    height: 100px;
+	border: 1px solid rgb(115, 108, 108);
+	margin-right: 50px;
+	border-radius: 6px;
+}
+
+.productRadio{
+    transform: scale(0.35);
+    margin-bottom: 20px;
+    margin-right: -100px;
+}
+
+.allprodukti{
+    margin-left: -90px;
+    font-size: 28px;
+}
+
+
+.allProductManageButton{
+    background-color:rgb(19, 19, 19) ;
+    border: 1px solid transparent;
+    border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+    padding: 6px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 25px;
+    color:white;
+    margin-top: 55px;
+    width: 240px;
+}
+
+.allProductManageButton:hover{
+    border-left: 1px solid rgb(176, 255, 255);
+	border-right: 1px solid rgb(176, 255, 255);
+    border-top: 1px solid rgba(176, 255, 255, 0);
+    border-bottom: 1px solid rgba(176, 255, 255, 0);
+	color: rgb(176, 255, 255);
+    text-decoration: none;
+    background-color:rgb(19, 19, 19) ;
+}
+
+#allProductManageButtonS{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+.swal-text{
+    font-size: 20px;
+}
